@@ -1,5 +1,7 @@
-# sky-horizon-weather-api
+# sky-horizon-weather-api 🌪️🍃
 Forecast the skies with precision. A sleek, reliable API that delivers real-time weather insights straight to your apps. Lightweight in design, powerful in reach—your horizon just got clearer.
+
+---
 
 ## Features
 
@@ -13,6 +15,8 @@ Simple health check endpoint for monitoring
 
 In-memory caching to reduce redundant API calls
 
+---
+
 ## Quickstart
 
 1. Clone the repository
@@ -23,6 +27,7 @@ cd sky-horizon-weather-api
 ``
 
 2. Install dependencies
+
 ``bash
 npm install
 ``
@@ -43,6 +48,8 @@ npm run dev
 ``
 
 The API will be available at http://localhost:3000.
+
+----
 
 ## Endpoints
 
@@ -84,6 +91,8 @@ GET /weather?city=Jakarta&units=metric&lang=en
 }
 ``
 
+---
+
 ## Environment Variables
 
 > WEATHER_API_KEY (required): Your OpenWeatherMap API key
@@ -92,6 +101,8 @@ GET /weather?city=Jakarta&units=metric&lang=en
 
 > DEFAULT_LANG (default: en): Default response language
 
+---
+
 ## Development Notes
 
 > Built with Node.js, Express, and Axios
@@ -99,6 +110,8 @@ GET /weather?city=Jakarta&units=metric&lang=en
 > Includes caching layer to optimize API usage
 
 > Designed for extensibility: future endpoints can support forecasts, alerts, or advanced analytics
+
+---
 
 ## License
 
