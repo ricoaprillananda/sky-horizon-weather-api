@@ -19,20 +19,20 @@ In-memory caching to reduce redundant API calls
 
 ## Quickstart
 
-### 1.Clone the repository
+### 1. Clone the repository
 
 ``bash
 git clone https://github.com/yourusername/sky-horizon-weather-api.git
 cd sky-horizon-weather-api
 ``
 
-### 2.Install dependencies
+### 2. Install dependencies
 
 ``bash
 npm install
 ``
 
-### 3.Configure your environment
+### 3. Configure your environment
 
 ``bash
 cp .env.example .env
@@ -41,7 +41,7 @@ cp .env.example .env
 Edit.env and add your WEATHER_API_KEY from OpenWeatherMap
 .
 
-### 4.Start the development server
+### 4. Start the development server
 
 ``bash
 npm run dev
